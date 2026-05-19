@@ -1,0 +1,51 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs and temp files
+*.log
+*.tmp
+tmp/
+temp/
+.cache/
+.codex-tmp/
+
+# Dependency directories
+node_modules/
+.pnpm-store/
+vendor/
+
+# Build and coverage outputs
+dist/
+build/
+out/
+.next/
+coverage/
+.nyc_output/
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+# Local databases and artifacts
+*.sqlite
+*.sqlite3
+*.db
+*.pid
+
+# Common archives generated during testing or packaging
+*.zip
+*.tar
+*.gz
+
