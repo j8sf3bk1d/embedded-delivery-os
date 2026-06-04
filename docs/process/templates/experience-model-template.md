@@ -52,6 +52,19 @@ Suggested shape:
 - Failure or recovery path:
 - Decision or trust checkpoints:
 
+## Pattern Narrowing
+
+For each important outcome or surface, capture:
+
+- primary action the actor must take
+- information required to take that action well
+- reassurance, proof, or trust signals required
+- control or override needs
+- candidate interaction patterns considered
+- why the chosen pattern fits better than the rejected ones
+
+The goal is to show how the outcome and information constraints narrow the viable UI pattern set.
+
 ## Surface Map
 
 For each important screen or surface, capture:
@@ -67,6 +80,15 @@ Suggested table:
 
 | Surface | Primary goal | Secondary goals | Path steps owned | Entry points | Exit pivots | Does not own |
 |---|---|---|---|---|---|---|
+
+## Visual References And Screenshot Evidence
+
+List the most useful visual artifacts if they exist:
+
+- baseline screenshots from the current product
+- milestone screenshots for drift comparison
+- competitor or cross-domain captures worth borrowing from
+- notes about viewport, state, or scenario represented
 
 ## Screen Data Contracts
 
@@ -115,4 +137,3 @@ State whether this experience model should lead to:
 - a design review gate
 
 If none apply, say so explicitly.
-

@@ -1,10 +1,12 @@
 ---
 
-# UX Process – Outcome-Driven Design
+# UX Process - Outcome-Driven Design
 
 This document defines the standard process for designing and evaluating user experiences in this project.
 
 The goal is to produce interfaces that help users achieve outcomes with minimal friction, maximum clarity, and appropriate levels of control and visibility.
+
+If no PRD or working brief exists yet, use this alongside `docs/reference/product-discovery-process.md` so the user outcome and gap map are established before interface design begins.
 
 ---
 
@@ -14,7 +16,7 @@ All UX work begins with a clearly defined outcome.
 
 * What is the user trying to accomplish?
 * What does success look like from their perspective?
-* How will the user know they’ve succeeded?
+* How will the user know they've succeeded?
 
 Avoid starting from existing UI or system structure. Start from the desired outcome.
 
@@ -26,14 +28,14 @@ Design the experience by working backward from the goal to the entry point.
 
 Define:
 
-* **Completion state** – what the system looks like when the goal is achieved
-* **Entry state** – how the user arrives at this flow
-* **Intermediate steps** – the actions required to move from entry to completion
+* **Completion state** - what the system looks like when the goal is achieved
+* **Entry state** - how the user arrives at this flow
+* **Intermediate steps** - the actions required to move from entry to completion
 
 Represent this as a simple flow:
 
-```
-Entry -> Step 1 -> Step 2 -> … -> Completion
+```txt
+Entry -> Step 1 -> Step 2 -> Completion
 ```
 
 Do not assume the current flow is correct. Reconstruct it from first principles.
@@ -59,6 +61,11 @@ For every step in the flow, explicitly analyze:
 ### Necessity
 
 * Is this step required, or can it be removed, combined, or automated?
+
+### Reassurance and trust
+
+* What proof, confirmation, visibility, or control does the user need at this step?
+* Is the real blocker missing confidence rather than missing functionality?
 
 ---
 
@@ -88,17 +95,38 @@ Ensure:
 * important actions are visible and traceable
 * the user can override or adjust decisions when appropriate
 
-Avoid “silent” system behavior that reduces trust.
+Avoid silent system behavior that reduces trust.
 
 ---
 
-## 6. Design the Interface from the Flow
+## 6. Let the Constraints Narrow the Pattern
+
+By the time the following are explicit:
+
+* the desired outcome
+* the action the user must take
+* the information they need
+* the reassurance or control they need
+
+the viable interaction patterns should narrow significantly.
+
+Ask:
+
+* does this step need comparison, review, confirmation, drill-in, or simple progression?
+* does the user need one obvious next action or several equally valid tools?
+* does this pattern reduce friction or merely reflect the implementation structure?
+
+Use this narrowing effect intentionally. It keeps the search space small and the resulting UI more usable.
+
+---
+
+## 7. Design the Interface from the Flow
 
 The UI should be derived from the flow, not the other way around.
 
 For each step:
 
-* define the primary action (what the user should do next)
+* define the primary action
 * provide only the necessary supporting information
 * de-emphasize or defer secondary actions
 
@@ -112,7 +140,7 @@ Do not choose patterns based on stylistic preference alone.
 
 ---
 
-## 7. Validate Information Completeness
+## 8. Validate Information Completeness
 
 Ensure the system provides everything needed to complete the task:
 
@@ -129,7 +157,7 @@ Many UX problems are actually missing-data problems.
 
 ---
 
-## 8. Handle Edge Cases and Failure States
+## 9. Handle Edge Cases and Failure States
 
 Design beyond the happy path.
 
@@ -148,21 +176,21 @@ Ensure:
 
 ---
 
-## 9. Maintain Consistency Across the System
+## 10. Maintain Consistency Across the System
 
 Before finalizing:
 
 * does this align with existing patterns and flows?
 * are we introducing unnecessary new concepts or interactions?
-* will this fragment the user’s mental model?
+* will this fragment the user's mental model?
 
 Prefer consistency unless there is a clear and meaningful improvement.
 
 ---
 
-## 10. Primary Path Focus
+## 11. Primary Path Focus
 
-Identify the single most important user path (the primary path).
+Identify the single most important user path.
 
 * optimize this path aggressively
 * ensure it is fast, clear, and low-friction
@@ -172,7 +200,29 @@ Secondary paths should not degrade the primary experience.
 
 ---
 
-## 11. UX Review Checklist
+## 12. Use Screenshot-Assisted Review When UI Exists
+
+Code often hides the details that matter most in UI work: density, visual hierarchy, spacing, contrast, emphasis, and drift across states.
+
+If screenshot tooling or test scaffolding exists:
+
+* capture meaningful milestone states
+* compare before-and-after screenshots when workflows or layouts change
+* check desktop and mobile views when relevant
+* preserve only the captures that materially help future review or drift detection
+
+Use screenshot evidence to review:
+
+* action clarity
+* information density
+* visual hierarchy
+* contrast and legibility
+* empty, loading, and error states
+* responsive drift over time
+
+---
+
+## 13. UX Review Checklist
 
 Before completing UX design work, confirm:
 
@@ -184,10 +234,12 @@ Before completing UX design work, confirm:
 * edge cases and failure states are handled
 * required information is present and unambiguous
 * the design aligns with existing system patterns
+* the chosen interaction pattern fits the outcome and information constraints
+* available screenshot evidence has been reviewed or intentionally skipped
 
 ---
 
-## 12. Notes
+## 14. Notes
 
 * Prioritize outcomes over features
 * Favor clarity over cleverness

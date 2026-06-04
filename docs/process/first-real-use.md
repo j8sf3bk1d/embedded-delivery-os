@@ -14,7 +14,7 @@ You do not need to delete the tutorial immediately. Decide whether it should sta
 ## First Real Use Checklist
 
 1. Rename the project in `README.md` and `docs/index.md`.
-2. Add the real PRD, idea sketch, exported chats, or source corpus under `docs/reference/prd-v0/`.
+2. Add the real PRD, idea sketch, exported chats, or source corpus under `docs/reference/prd-v0/`. If no PRD exists yet, create `docs/reference/prd-v0/10-discovery-brief.md` first.
 3. Update `docs/system/source-authority.md` to name the real primary, secondary, and archive-only sources.
 4. Distill the active implementation slice if the source corpus is dense or contradictory.
 5. Replace the starter arc and phase with the first real planning slice for the project.
@@ -40,10 +40,16 @@ If you keep the tutorial, treat it as explanatory material, not the day-to-day o
 
 ## Starter Prompt
 
-Use this as the first real handoff prompt for a new coding agent:
+Use this as the first real handoff prompt for a new coding agent when a PRD or source pack already exists:
 
 ```text
 New repo. Read the top-level README, then docs/index.md, then docs/system/source-authority.md, docs/system/system.md, and the relevant row in docs/process/change-map.md. After that, read the imported source material under docs/reference/prd-v0/ and help me define the first real arc and active phase before implementation.
+```
+
+If no PRD exists yet, start instead with:
+
+```text
+New repo. Read the top-level README, then docs/index.md, then docs/reference/product-discovery-process.md, docs/system/source-authority.md, docs/system/system.md, and the relevant row in docs/process/change-map.md. Help me turn the current discussion into a first discovery brief under docs/reference/prd-v0/10-discovery-brief.md before we plan implementation.
 ```
 
 ## What Good Looks Like
@@ -53,6 +59,6 @@ After the first real setup pass:
 - `README.md` describes the actual project, not just the scaffold
 - `docs/index.md` points to the current real arc and active phase
 - `docs/system/source-authority.md` identifies the real source of truth
-- `docs/reference/prd-v0/` contains the imported product material
+- `docs/reference/prd-v0/` contains the imported product material or the first discovery brief
 - `docs/process/change-map.md` reflects the real codebase and validation surface
 - the starter arc has been superseded by project-specific planning

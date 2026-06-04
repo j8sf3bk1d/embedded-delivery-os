@@ -11,6 +11,8 @@ Use this document only when entering the repo with little or no context.
 5. `docs/process/arcs/README.md`
 6. the current arc and active phase linked from `docs/index.md`
 
+If no PRD or working brief exists yet, continue with `docs/reference/product-discovery-process.md` before planning implementation.
+
 ## Task-Specific Follow-On Reading
 
 - If the task is implementation-heavy:
@@ -25,10 +27,14 @@ Use this document only when entering the repo with little or no context.
 - If the task starts from imported source material:
   Read `docs/system/source-authority.md` first, then any derived distillation docs, then raw `docs/reference/prd-v0/*` only if needed.
 
+- If the task is early discovery or first-brief creation:
+  Read `docs/reference/product-discovery-process.md`, then `docs/reference/ux-process.md` for user-facing work, then create `docs/reference/prd-v0/10-discovery-brief.md` from `docs/process/templates/discovery-brief-template.md`.
+
 ## What To Confirm Early
 
 - project name and short description
 - current arc and active phase
+- whether a first discovery brief already exists
 - current source-of-truth and derived-doc setup
 - stack or runtime assumptions
 - expected validation surface

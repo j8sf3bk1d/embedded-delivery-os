@@ -4,7 +4,7 @@ Purpose:
 Define which documents set product intent, which documents are derived planning aids, and which materials are archive or provenance only.
 
 Current state:
-No project-specific PRD corpus has been imported yet. Use this file immediately after adding source material under `docs/reference/prd-v0/`.
+No project-specific PRD corpus has been imported yet. Use this file immediately after adding source material under `docs/reference/prd-v0/` or after creating a conversation-derived first brief there when no PRD exists yet.
 
 ## Recommended authority model
 
@@ -12,6 +12,7 @@ No project-specific PRD corpus has been imported yet. Use this file immediately 
 
 Use these first for product scope, goals, constraints, and tradeoffs:
 
+- a discovery brief created from live product discussion when no formal PRD exists yet
 - the main PRD or product requirements doc
 - the scope or non-goals doc
 - the canonical process references in `docs/reference/`
@@ -24,12 +25,14 @@ Use these to define the first implementation slice:
 - a landmine or risk map
 - a test matrix
 - early architecture or domain-boundary notes
+- an experience model when UX or multi-surface workflow design is important
 
 ### Background or strategy docs
 
 Useful context, but not equal authority:
 
 - brainstorms
+- discovery call notes or transcripts
 - exports from chats
 - market notes
 - strategy memos
@@ -48,8 +51,8 @@ Keep these for traceability, not as default implementation inputs:
 
 Once the real source corpus exists:
 
-1. list the exact files in each authority class
-2. identify which files a cold-start agent should read first
-3. note which derived docs should replace repeated archaeology
-4. preserve raw source docs, but do active planning from the distilled set
-
+1. if no PRD exists yet, create the first discovery brief and temporarily treat it as primary authority until superseded
+2. list the exact files in each authority class
+3. identify which files a cold-start agent should read first
+4. note which derived docs should replace repeated archaeology
+5. preserve raw source docs, but do active planning from the distilled set

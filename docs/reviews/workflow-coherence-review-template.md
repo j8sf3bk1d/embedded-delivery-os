@@ -58,6 +58,15 @@ Check whether:
 - action comes before telemetry where appropriate
 - deeper diagnostics or low-level detail are still secondary
 
+## Visual And Interaction Drift Check
+
+Check whether:
+
+- current screenshots still support the intended primary path when baseline captures exist
+- layout density, hierarchy, contrast, and emphasis still support comprehension
+- responsive or state-based drift has introduced new friction
+- visual changes improved the flow rather than merely restyling it
+
 ## Follow-Ups
 
 - Action:
@@ -70,4 +79,3 @@ Check whether:
 - open a workflow refactor phase
 - run a design review gate
 - update the experience model before more implementation
-

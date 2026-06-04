@@ -20,19 +20,20 @@ This starter repo begins before a PRD or stack-specific implementation is known.
 | Phase | Purpose | Status |
 |---|---|---|
 | [00 Cold-Start Scaffold](phases/00-cold-start-scaffold/phase.md) | Establish the reusable repo baseline | complete |
-| [01 Source Intake and Distillation](phases/01-source-intake-and-distillation/phase.md) | Import and triage the real source corpus | active |
+| [01 Source Intake, Discovery, and Distillation](phases/01-source-intake-and-distillation/phase.md) | Import and triage the real source corpus or create the first discovery brief | active |
 | [02 First Real Arc Planning](phases/02-first-real-arc-planning/phase.md) | Turn the source corpus into the first implementation-ready arc | pending |
 
 ## Risks
 
 - source docs may be imported without a clear authority model
+- live discovery may happen without being converted into durable source docs
 - placeholder test and setup guidance may stay stale after the stack is known
 - process docs may diverge from real implementation if not updated early
 
 ## Completion criteria
 
 - the real project name and description replace starter placeholders
-- imported source materials are triaged through `docs/system/source-authority.md`
+- imported source materials are triaged through `docs/system/source-authority.md` or a first discovery brief exists when no PRD was provided
 - the first real project arc is defined with active phase context
 - stack-specific env and validation commands replace generic placeholders
 
@@ -42,4 +43,3 @@ This starter repo begins before a PRD or stack-specific implementation is known.
 - [docs/system/system.md](../../../system/system.md)
 - [docs/system/source-authority.md](../../../system/source-authority.md)
 - [docs/process/change-map.md](../../change-map.md)
-

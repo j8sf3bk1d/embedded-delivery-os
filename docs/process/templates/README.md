@@ -14,6 +14,7 @@ Available templates:
 - [Review Template](review-template.md)
 - [Source Authority Template](source-authority-template.md)
 - [Working Distillation Template](distillation-template.md)
+- [Discovery Brief Template](discovery-brief-template.md)
 
 Related reusable process artifacts outside this folder:
 

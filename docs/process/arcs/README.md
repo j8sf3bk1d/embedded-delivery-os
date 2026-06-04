@@ -3,15 +3,15 @@
 ## Active Arc
 
 - [00 Project Foundation](./00-project-foundation/arc.md)
-- Active phase: [Phase 01 - Source Intake and Distillation](./00-project-foundation/phases/01-source-intake-and-distillation/phase.md)
+- Active phase: [Phase 01 - Source Intake, Discovery, and Distillation](./00-project-foundation/phases/01-source-intake-and-distillation/phase.md)
 - Current note: this starter arc exists to demonstrate the workflow and should be replaced or updated once a real project brief lands
 
 ## Macro Roadmap
 
 1. Project foundation
    Establish repo scaffold, default process, and cold-start orientation.
-2. Source intake and distillation
-   Import the PRD or source corpus, define authority, and distill the active implementation slice.
+2. Source intake, discovery, and distillation
+   Import the PRD or source corpus, or create the first discovery brief, define authority, and distill the active implementation slice.
 3. First implementation plan
    Define the first real arc, its boundaries, validation, and initial phase sequencing.
 4. Build, validate, and iterate

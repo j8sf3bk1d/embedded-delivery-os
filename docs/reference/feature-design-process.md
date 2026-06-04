@@ -8,6 +8,8 @@ The goal is to design systems that turn inputs into correct, explainable, operab
 
 Use this alongside `/docs/reference/ux-process.md`. UX process governs user-facing flow design. This document governs domain logic, scoring, state, interpretation, and feature behavior behind the interface.
 
+If no PRD or working brief exists yet, use `docs/reference/product-discovery-process.md` first so the desired outcome and first slice are explicit before logic design begins.
+
 ---
 
 ## 1. Start with the Business Outcome

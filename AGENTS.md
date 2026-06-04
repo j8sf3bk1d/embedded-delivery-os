@@ -10,6 +10,9 @@ Use this file as the always-on operating contract. Keep it lightweight. Do not u
 
 ## Task Routing
 
+- Early product discovery or no-PRD ideation:
+  Read `docs/reference/product-discovery-process.md`, then the relevant UX or system docs once the first brief exists.
+
 - Code changes:
   Read `docs/process/change-map.md`, then the relevant system docs and active arc or phase docs.
 
@@ -29,7 +32,7 @@ Use this file as the always-on operating contract. Keep it lightweight. Do not u
   Read `docs/index.md`, the active arc or phase docs, and the relevant templates under `docs/process/templates/`.
 
 - PRD intake or source reconciliation:
-  Read `docs/system/source-authority.md` first. Prefer derived distillations over raw files in `docs/reference/prd-v0/`.
+  Read `docs/system/source-authority.md` first. Prefer derived distillations over raw files in `docs/reference/prd-v0/`. If no PRD exists yet, create a discovery brief first.
 
 ## High-Risk Rules
 

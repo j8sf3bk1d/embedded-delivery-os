@@ -38,6 +38,7 @@ The opportunity is to embed the coordination layer into the repo itself:
 - a change map so future work starts with the right docs and smallest validation
 - QA, review, scratchpad, and user-doc placeholders
 - canonical reference docs in `docs/reference/`
+- a first-brief discovery path for projects that start from live discussion instead of a PRD
 - a tutorial track that explains the operating model, not just the artifacts
 
 ## Start Here
@@ -58,6 +59,8 @@ Choose the smallest relevant path:
 
 If a PRD or source corpus has been added, read the derived authority and distillation docs before diving into raw source material.
 
+If no PRD exists yet, use [docs/reference/product-discovery-process.md](docs/reference/product-discovery-process.md) to create a durable first brief before planning implementation.
+
 For a dedicated zero-context startup flow, use [docs/process/cold-start.md](docs/process/cold-start.md).
 For the shortest path from scaffold to real project, use [docs/process/first-real-use.md](docs/process/first-real-use.md).
 
@@ -66,7 +69,7 @@ For the shortest path from scaffold to real project, use [docs/process/first-rea
 For a direct adoption checklist and starter prompt, use [docs/process/first-real-use.md](docs/process/first-real-use.md).
 
 1. Rename the project in [README.md](README.md) and [docs/index.md](docs/index.md).
-2. Add the real product brief, PRD, or source docs under [docs/reference/prd-v0/](docs/reference/prd-v0/README.md).
+2. Add the real product brief, PRD, or source docs under [docs/reference/prd-v0/](docs/reference/prd-v0/README.md), or create a first discovery brief there if no PRD exists yet.
 3. Update [docs/system/source-authority.md](docs/system/source-authority.md) to identify the real source-of-truth documents.
 4. Replace the starter arc and phase with the first real planning slice for the project.
 5. Replace placeholder setup, env, and test commands with stack-specific commands.
@@ -79,7 +82,7 @@ For a cold-start coding agent, the intended handoff is:
 1. Read this `README.md`.
 2. Read `docs/index.md` and the linked current arc and phase.
 3. Read `docs/system/system.md`, `docs/system/source-authority.md`, and the relevant change-map row.
-4. Then read the PRD or active design docs.
+4. Then read the PRD, discovery brief, or active design docs.
 
 If you want a copy-paste starter prompt for the first real session, use [docs/process/first-real-use.md](docs/process/first-real-use.md).
 

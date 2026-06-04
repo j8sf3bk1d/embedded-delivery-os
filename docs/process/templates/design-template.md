@@ -29,6 +29,14 @@ If this is user-facing or operator-facing work, link the relevant experience mod
 - which screens or surfaces it affects
 - what it explicitly should not own
 
+## Visual validation plan
+
+If this is UI-heavy work, state:
+
+- whether screenshot capture or comparison is available
+- which scenarios or states should be preserved visually
+- where milestone captures or drift notes should live
+
 ## Interfaces and boundaries
 
 ## Data requirements

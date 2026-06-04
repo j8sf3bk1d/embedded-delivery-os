@@ -16,7 +16,7 @@ The first coding phase has clear goals, boundaries, validation expectations, and
 
 ### Constraints and assumptions
 
-- source authority and distillation should already be complete
+- source authority and distillation should already be complete, or a first discovery brief should already exist
 - the first arc should stay narrow enough to validate cleanly
 
 ### Interfaces and boundaries
@@ -29,4 +29,3 @@ The first coding phase has clear goals, boundaries, validation expectations, and
 - the first real arc exists
 - the first active phase is implementation-ready
 - change-map rows and QA commands reflect the real stack
-
