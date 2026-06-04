@@ -8,6 +8,8 @@ If you are here to adopt the scaffold for a real project, start with [../process
 
 ## Start Here
 
+- If you want the regular linear path through the tutorial:
+  start with the sequence in `Full Linear Path` below.
 - If you want the shortest path into the idea:
   read [00-theory-of-operation.md](00-theory-of-operation.md), then [09-why-projects-need-an-embedded-workflow-operating-system.md](09-why-projects-need-an-embedded-workflow-operating-system.md), then [02-embedded-workflows-overview.md](02-embedded-workflows-overview.md), then the lesson closest to the mess you are trying to fix.
 - If you want the short public path instead of the full sequence:
@@ -32,7 +34,9 @@ Each lesson should teach one named framework or sub-framework using the same sha
 
 The goal is not to present process as abstract best practice. The goal is to show which failure mode or recurring pain forced the workflow to exist.
 
-## Core Orientation
+## Full Linear Path
+
+If you want to read the tutorial the normal way, in order, use this sequence:
 
 1. [00-theory-of-operation.md](00-theory-of-operation.md)
 2. [09-why-projects-need-an-embedded-workflow-operating-system.md](09-why-projects-need-an-embedded-workflow-operating-system.md)
@@ -42,6 +46,21 @@ The goal is not to present process as abstract best practice. The goal is to sho
 6. [05-best-of-reading-paths.md](05-best-of-reading-paths.md)
 7. [04-audiences-and-reading-paths.md](04-audiences-and-reading-paths.md)
 8. [03-lessons-map.md](03-lessons-map.md)
+
+After that, continue through the published lessons in numeric order:
+
+9. [10-why-reading-paths-beat-repo-tours.md](10-why-reading-paths-beat-repo-tours.md)
+10. [11-why-ux-keeps-regressing-into-screen-soup.md](11-why-ux-keeps-regressing-into-screen-soup.md)
+11. [12-why-source-authority-must-exist-before-implementation.md](12-why-source-authority-must-exist-before-implementation.md)
+12. [13-why-active-work-cannot-live-only-in-chat-memory.md](13-why-active-work-cannot-live-only-in-chat-memory.md)
+13. [14-why-reviews-need-routing-not-just-findings.md](14-why-reviews-need-routing-not-just-findings.md)
+14. [15-why-works-locally-is-not-a-release-process.md](15-why-works-locally-is-not-a-release-process.md)
+15. [16-why-closeout-hygiene-matters.md](16-why-closeout-hygiene-matters.md)
+16. [17-why-external-resources-need-a-human-executable-checklist.md](17-why-external-resources-need-a-human-executable-checklist.md)
+17. [18-why-progressive-disclosure-beats-flat-operational-surfaces.md](18-why-progressive-disclosure-beats-flat-operational-surfaces.md)
+18. [19-why-decision-records-should-be-triggered-not-overused.md](19-why-decision-records-should-be-triggered-not-overused.md)
+
+If you want the compressed version instead, use [05-best-of-reading-paths.md](05-best-of-reading-paths.md).
 
 ## Read By Problem
 

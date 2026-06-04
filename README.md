@@ -47,6 +47,8 @@ Choose the smallest relevant path:
 
 - Fast public overview:
   [docs/tutorial/05-best-of-reading-paths.md](docs/tutorial/05-best-of-reading-paths.md)
+- Full tutorial in order:
+  [docs/tutorial/README.md](docs/tutorial/README.md)
 - Theory and model:
   [docs/tutorial/00-theory-of-operation.md](docs/tutorial/00-theory-of-operation.md),
   [docs/tutorial/09-why-projects-need-an-embedded-workflow-operating-system.md](docs/tutorial/09-why-projects-need-an-embedded-workflow-operating-system.md),
