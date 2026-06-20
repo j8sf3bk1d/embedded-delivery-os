@@ -51,6 +51,7 @@ That means every meaningful slice of work has to answer:
 - what changed in reality
 - which docs now need to match that reality
 - which findings became issues, decisions, or later phases
+- which repeated friction should become a better default, checklist, or SOP
 - what is active now
 - what the next person should trust
 
@@ -82,6 +83,7 @@ That matters because it changes closeout from "nice if we remember" into a real 
 
 - named documentation updates
 - docs cleanup and normalization notes
+- process-improvement and SOP-opportunity notes
 - review requirements
 - closeout checks
 
@@ -100,7 +102,28 @@ It checks:
 
 That gives the repo a way to recover from accumulated drift before it hardens into confusion.
 
-### 4. Closeout minimums name the exact surfaces that commonly rot
+### 4. Closeout now harvests reusable workflow improvements instead of only cleaning up state
+
+The lifecycle and phase template now ask an extra question before a phase is called done:
+
+- did this work reveal repeated friction that should become a checklist, SOP, template update, or lifecycle/default-rule improvement?
+
+That matters because the repo should not only restore truth after a phase. It should also absorb what the phase taught.
+
+Without that hook, the same friction gets rediscovered three times:
+
+- once in the original work
+- again in the next similar phase
+- again during a broader hygiene sweep
+
+With the hook, the project can turn repeated pain into:
+
+- a tighter change-map row
+- a clearer closeout rule
+- a new checklist or review prompt
+- a new bounded cleanup or workflow-improvement phase
+
+### 5. Closeout minimums name the exact surfaces that commonly rot
 
 The lifecycle doc explicitly calls out:
 
@@ -112,6 +135,8 @@ The lifecycle doc explicitly calls out:
 - QA docs
 - `user-docs/user-manual.md`
 - `docs/scratchpad/issues.md`
+
+It also now calls out whether new workflow friction or SOP opportunities should be captured before the context goes stale.
 
 This matters because the real problem is usually not forgetting that "docs" exist. It is forgetting which docs carry operating truth.
 
@@ -133,6 +158,7 @@ You know this framework is working when the repo can survive a handoff or restar
 - better restartability after context compression
 - more trustworthy current-state docs
 - less rework caused by hidden drift
+- more repeated friction getting converted into durable workflow instead of recurring folklore
 
 ### What artifacts prove it is embedded
 

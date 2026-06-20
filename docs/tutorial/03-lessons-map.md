@@ -54,7 +54,7 @@ This file maps candidate tutorial lessons to the repo artifacts they explain.
 - pain:
   screens accrete features before the user workflow is modeled, then get reworked later
 - artifact anchors:
-  `docs/process/templates/experience-model-template.md`, workflow coherence review
+  `docs/process/templates/experience-model-template.md`, workflow coherence review, `docs/process/templates/visual-style-guardrails-template.md`, `docs/reference/ux-process.md`, `docs/qa/test-strategy.md`
 - published lesson:
   [11-why-ux-keeps-regressing-into-screen-soup.md](11-why-ux-keeps-regressing-into-screen-soup.md)
 
@@ -72,7 +72,7 @@ This file maps candidate tutorial lessons to the repo artifacts they explain.
 - pain:
   work looks done, but the repo no longer matches reality and the next phase starts from drift
 - artifact anchors:
-  `docs/process/phase-and-arc-lifecycle.md`, phase and implementation templates, hygiene checkpoint
+  `docs/process/phase-and-arc-lifecycle.md`, phase and implementation templates, hygiene checkpoint, `docs/scratchpad/issues.md`
 - published lesson:
   [16-why-closeout-hygiene-matters.md](16-why-closeout-hygiene-matters.md)
 

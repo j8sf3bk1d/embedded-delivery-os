@@ -114,7 +114,39 @@ The phase and design templates now ask directly:
 
 That prevents "we'll figure out the flow later" from staying invisible.
 
-### 5. Change-map routing for flow work
+### 5. Screenshot-assisted review keeps visual drift from hiding in the code
+
+[docs/reference/ux-process.md](../reference/ux-process.md), [docs/qa/manual-testing.md](../qa/manual-testing.md), and the screenshot archive guidance in [docs/archive/screenshots/index.md](../archive/screenshots/index.md) now treat visual review as a real workflow, not as an optional afterthought.
+
+That matters because code alone often hides the part of UX that users actually feel:
+
+- density
+- visual hierarchy
+- contrast
+- spacing
+- responsive drift
+
+The newer guidance also distinguishes between two useful kinds of evidence:
+
+- milestone archive captures for before-and-after review
+- screenshot assertions or baselines only when a surface is stable enough that automated comparison will help more than it churns
+
+### 6. Visual guardrails and harness choices make screenshot review usable instead of vague
+
+[docs/process/templates/visual-style-guardrails-template.md](../process/templates/visual-style-guardrails-template.md) and the newer QA guidance add two missing pieces:
+
+- what the product should visually bias toward
+- what the lightest useful screenshot harness should be for the runtime
+
+That matters because "review screenshots" is still too vague unless the project knows:
+
+- what good density looks like
+- which anti-patterns to avoid
+- whether this is a static prototype, a normal dev-server app, or a stateful app that needs isolated local data for captures
+
+Without that, visual review either becomes subjective or quietly disappears.
+
+### 7. Change-map routing for flow work
 
 [docs/process/change-map.md](../process/change-map.md) includes a dedicated row for:
 
@@ -150,6 +182,9 @@ You can tell this framework is real when the product stops behaving like a pile 
 - [docs/process/phase-and-arc-lifecycle.md](../process/phase-and-arc-lifecycle.md)
 - [docs/process/templates/phase-template.md](../process/templates/phase-template.md)
 - [docs/process/templates/design-template.md](../process/templates/design-template.md)
+- [docs/process/templates/visual-style-guardrails-template.md](../process/templates/visual-style-guardrails-template.md)
+- [docs/reference/ux-process.md](../reference/ux-process.md)
+- [docs/qa/test-strategy.md](../qa/test-strategy.md)
 
 ### What the repo has learned from real examples
 
