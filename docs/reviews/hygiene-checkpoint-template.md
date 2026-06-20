@@ -41,6 +41,18 @@ Check for:
 - unclear ownership or boundaries
 - phase sequencing that no longer reflects the current roadmap
 
+## Operational Workflow Check
+
+Use a light or heavy pass depending on recent work.
+
+Check for:
+
+- long-running or bulk workflows that remain one-shot or opaque
+- missing idempotency or replay-safety seams
+- missing batch controls, progress visibility, or resume paths
+- dry-run and live mutation modes that are still ambiguous
+- external sync or import paths that have no shard-level validation story
+
 ## Security And Trust-Boundary Check
 
 Use a light or heavy pass depending on recent work.
@@ -58,6 +70,9 @@ Capture:
 - missing docs
 - status inconsistencies
 - findings that should become issues, decisions, or new phases
+- repeated friction that should become a checklist, template update, or SOP
+- places where contributors still depend on chat memory or tribal knowledge instead of repo-native workflow
+- process defaults that should be tightened in lifecycle rules, change-map rows, or review templates
 
 ## Recommendation
 
@@ -65,4 +80,3 @@ Capture:
 - run a planning checkpoint
 - open a cleanup phase
 - trigger a security or release review
-

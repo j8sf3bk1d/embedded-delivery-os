@@ -34,6 +34,10 @@ If this is user-facing or operator-facing work, link the relevant experience mod
 If this is UI-heavy work, state:
 
 - whether screenshot capture or comparison is available
+- which harness shape fits best:
+  - static prototype capture
+  - normal dev-server Playwright flow
+  - isolated-state screenshot flow
 - which scenarios or states should be preserved visually
 - where milestone captures or drift notes should live
 

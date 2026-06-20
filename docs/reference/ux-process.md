@@ -210,6 +210,20 @@ If screenshot tooling or test scaffolding exists:
 * compare before-and-after screenshots when workflows or layouts change
 * check desktop and mobile views when relevant
 * preserve only the captures that materially help future review or drift detection
+* when repeated UI work is expected, create a small visual style guardrails note that records desired density, negative patterns to avoid, and product-specific styling constraints
+
+If screenshot tooling does not exist yet, prefer the lightest useful harness rather than skipping visual review indefinitely.
+
+Common defaults:
+
+* static prototype or wireframe pages: a tiny local HTTP server plus Playwright page captures is usually enough
+* single web app with an existing dev server: point Playwright `webServer` at the normal local startup command and capture milestone states or regression baselines from there
+* stateful app with mutable local data: add a dedicated screenshot or visual-QA command that uses isolated local state rather than the operator's normal runtime data
+
+Separate two kinds of visual evidence:
+
+* milestone archive captures under `docs/archive/screenshots/` for before-and-after review and project history
+* screenshot assertions or baselines in Playwright only when the UI is stable enough that mechanical pixel comparison will save time rather than create churn
 
 Use screenshot evidence to review:
 

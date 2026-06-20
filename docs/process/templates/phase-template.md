@@ -105,6 +105,15 @@ Use this section to capture:
 - places where source docs, derived docs, and implementation docs may drift
 - app or package README updates needed to keep boundaries rediscoverable
 
+### Process improvements and SOP opportunities
+
+Use this section to capture:
+
+- repeated friction that should become a checklist, SOP, or template update
+- workflow steps that still depend too much on memory or manual narration
+- changes that should land in `docs/process/change-map.md`, lifecycle rules, or review templates
+- whether the improvement should be handled now, routed to `docs/scratchpad/issues.md`, or opened as a new phase
+
 ### Review artifacts to create or update
 
 Link the expected review doc paths here when known.
@@ -130,5 +139,6 @@ Before marking the phase complete, confirm:
 - system, schema, QA, change-map, and user-doc updates were applied where relevant
 - implementation still matches the design, or the divergence is recorded explicitly
 - user-facing work still aligns with `docs/reference/ux-process.md`
+- newly discovered reusable workflow improvements or SOP opportunities were captured, routed, or intentionally declared unnecessary
 
 ### Current progress

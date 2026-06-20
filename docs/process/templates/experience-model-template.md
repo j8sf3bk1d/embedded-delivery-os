@@ -17,6 +17,7 @@ Keep this document focused on user outcomes and surface contracts, not implement
 - Arc or initiative:
 - Primary actor types:
 - Related design or phase docs:
+- Related visual style guardrails doc when one exists:
 
 ## Outcome Map
 

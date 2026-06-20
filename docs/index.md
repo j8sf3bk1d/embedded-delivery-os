@@ -34,6 +34,7 @@ Setup and environment notes:
 - Replace placeholder validation guidance in `docs/qa/test-strategy.md` and `docs/process/change-map.md` as soon as real commands exist.
 - Use `docs/system/external-resources-and-infrastructure.md` as soon as the project depends on real external services, accounts, or provisioning.
 - If UI work exists and screenshot tooling is available, keep meaningful milestone captures under `docs/archive/screenshots/`.
+- If UI work is likely to iterate over time, consider creating a project-specific visual style guardrails note from `docs/process/templates/visual-style-guardrails-template.md` so density targets and anti-patterns are explicit early.
 
 Immediate next steps:
 

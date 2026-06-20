@@ -143,6 +143,13 @@ When a review finds an issue:
 - create a decision record when the finding forces a durable architecture, security, scope, or operational choice
 - open a new phase when the fix is large enough to deserve its own bounded work item
 
+When implementation or review reveals repeatable friction:
+
+- capture short-lived process improvement notes in the active phase doc if they will be handled immediately
+- route durable workflow or SOP opportunities into `docs/scratchpad/issues.md` if they need a later follow-up
+- update an existing template, checklist, change-map row, or lifecycle rule when the better default is already clear
+- open a new phase when the process improvement is large enough to deserve its own bounded work item
+
 ## Closeout minimums
 
 Before closing a phase or arc, check:
@@ -155,6 +162,7 @@ Before closing a phase or arc, check:
 - `docs/qa/test-strategy.md` or `docs/qa/manual-testing.md` when validation expectations changed
 - `user-docs/user-manual.md` when user-visible behavior changed
 - `docs/scratchpad/issues.md` for durable deferred work
+- whether new workflow friction, reusable checklists, or SOP opportunities were discovered and should be captured before the context goes stale
 
 ## Anti-patterns
 

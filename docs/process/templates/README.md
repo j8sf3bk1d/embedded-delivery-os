@@ -9,6 +9,7 @@ Available templates:
 - [Design Document Template](design-template.md)
 - [Implementation Document Template](implementation-template.md)
 - [Experience Model Template](experience-model-template.md)
+- [Visual Style Guardrails Template](visual-style-guardrails-template.md)
 - [Decision Record Template](decision-template.md)
 - [Change Map Entry Template](change-map-entry-template.md)
 - [Review Template](review-template.md)
