@@ -49,7 +49,23 @@ Stabilizing frameworks:
 - review routing
 - issue register
 
-## 4. UX coherence failures
+## 4. Parallel coordination failures
+
+Symptoms:
+
+- a roadmap is treated as a launch queue
+- concurrent workers collide in source, external state, or integration
+- finished agent responses are mistaken for validated completion
+- interruptions strand claims with uncertain recovery state
+
+Stabilizing frameworks:
+
+- dependency board with ready versus conditional state
+- resource capacity and capability checks
+- workspace isolation and explicit integration tasks
+- task handoffs, ambiguity gates, and replanning checkpoints
+
+## 5. UX coherence failures
 
 Symptoms:
 
@@ -63,7 +79,7 @@ Stabilizing frameworks:
 - experience model
 - workflow coherence review
 
-## 5. Execution-drift failures
+## 6. Execution-drift failures
 
 Symptoms:
 
@@ -77,7 +93,7 @@ Stabilizing frameworks:
 - smallest meaningful validation
 - closeout freshness rules
 
-## 6. Trust and release failures
+## 7. Trust and release failures
 
 Symptoms:
 

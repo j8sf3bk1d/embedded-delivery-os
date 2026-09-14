@@ -103,6 +103,17 @@ This file maps candidate tutorial lessons to the repo artifacts they explain.
 - published lesson:
   [19-why-decision-records-should-be-triggered-not-overused.md](19-why-decision-records-should-be-triggered-not-overused.md)
 
+### 11. Parallel Work Needs A Control Plane
+
+- pain:
+  multiple workers create hidden dependency, resource, workspace, handoff, and
+  recovery failures when a roadmap is treated as a dispatch queue
+- artifact anchors:
+  `docs/process/parallel-work-coordination.md`, `coordination/`, task briefs,
+  handoffs, workspace decisions, ambiguity gates, and replanning checkpoints
+- published lesson:
+  [20-why-parallel-work-needs-a-control-plane.md](20-why-parallel-work-needs-a-control-plane.md)
+
 ## Authoring Note
 
 The lesson list should stay selective.

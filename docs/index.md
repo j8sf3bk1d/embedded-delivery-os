@@ -6,13 +6,13 @@ Current arc: [00 Project Foundation](process/arcs/00-project-foundation/arc.md)
 
 Active phase: [Phase 01 - Source Intake, Discovery, and Distillation](process/arcs/00-project-foundation/phases/01-source-intake-and-distillation/phase.md)
 
-Current status: Git is initialized. The starter documentation, process, QA, review, scratchpad, and user-doc scaffolding are in place. Canonical process references live in `docs/reference/`. The scaffold now supports both imported PRDs and conversation-driven first-brief creation, plus screenshot-assisted UX review when visual tooling exists. No product-specific PRD or implementation stack has been committed yet, so the system map, source-authority doc, environment scaffold, and validation guidance remain intentionally generic.
+Current status: Git is initialized. The starter documentation, process, QA, review, scratchpad, and user-doc scaffolding are in place. Canonical process references live in `docs/reference/`. The scaffold now supports both imported PRDs and conversation-driven first-brief creation, screenshot-assisted UX review when visual tooling exists, and an optional parallel-coordination profile for genuinely concurrent work. No product-specific PRD or implementation stack has been committed yet, so the system map, source-authority doc, environment scaffold, and validation guidance remain intentionally generic.
 
 Key docs:
 
 - System: [System Orientation](system/system.md), [Schema](system/schema.md), [Source Authority](system/source-authority.md), [Decisions](system/decisions/README.md)
 - System ops: [External Resources And Infrastructure](system/external-resources-and-infrastructure.md)
-- Process: [Change Map](process/change-map.md), [Arc Index](process/arcs/README.md), [Phase And Arc Lifecycle](process/phase-and-arc-lifecycle.md), [First Real Use](process/first-real-use.md), [Templates](process/templates/README.md)
+- Process: [Change Map](process/change-map.md), [Arc Index](process/arcs/README.md), [Phase And Arc Lifecycle](process/phase-and-arc-lifecycle.md), [First Real Use](process/first-real-use.md), [Templates](process/templates/README.md), [Parallel Work Coordination](process/parallel-work-coordination.md)
 - Cold start: [Cold-Start Playbook](process/cold-start.md)
 - Tutorial: [Tutorial Track](tutorial/README.md)
 - Current arc: [00 Project Foundation](process/arcs/00-project-foundation/arc.md)
@@ -35,6 +35,7 @@ Setup and environment notes:
 - Use `docs/system/external-resources-and-infrastructure.md` as soon as the project depends on real external services, accounts, or provisioning.
 - If UI work exists and screenshot tooling is available, keep meaningful milestone captures under `docs/archive/screenshots/`.
 - If UI work is likely to iterate over time, consider creating a project-specific visual style guardrails note from `docs/process/templates/visual-style-guardrails-template.md` so density targets and anti-patterns are explicit early.
+- If two or more contributors or agents will work concurrently, read [Parallel Work Coordination](process/parallel-work-coordination.md) and decide whether to enable its board, handoff, replanning, recovery, and workspace rules.
 
 Immediate next steps:
 

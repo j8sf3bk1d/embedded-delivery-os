@@ -74,6 +74,20 @@ Capture:
 - places where contributors still depend on chat memory or tribal knowledge instead of repo-native workflow
 - process defaults that should be tightened in lifecycle rules, change-map rows, or review templates
 
+## Parallel Coordination Check
+
+Use when the project has enabled the parallel-coordination profile.
+
+Check for:
+
+- board task status, dependencies, resources, and history consistency
+- claimed or blocked tasks with a current owner and named clearing event
+- completed tasks with readable artifacts, focused validation, and commit/import facts
+- untracked handoff artifacts or unreleased leases/processes
+- graph-ready work distinguished from work actually launchable under capacity
+- a separate integration/fan-in task where parallel lanes touch shared state
+- every Fast-mode exception explicitly authorized by the human user
+
 ## Recommendation
 
 - continue current arc

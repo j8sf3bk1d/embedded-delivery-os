@@ -21,6 +21,9 @@ You do not need to delete the tutorial immediately. Decide whether it should sta
 6. Update `docs/process/change-map.md` so the touched paths and validation guidance reflect the actual codebase.
 7. Replace placeholder env, test, release, and infrastructure guidance with stack-specific reality.
 8. Decide whether to keep, archive, or remove `docs/tutorial/`.
+9. If two or more contributors or agents will work concurrently, decide whether
+   to enable `docs/process/parallel-work-coordination.md`; do not create a
+   board for sequential work by default.
 
 ## Tutorial Decision
 

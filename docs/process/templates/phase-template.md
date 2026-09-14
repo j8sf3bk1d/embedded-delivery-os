@@ -72,6 +72,9 @@ Suggested pattern:
 
 ### Dependencies
 
+If this phase enables parallel lanes, link the active coordination board and
+state the workspace-isolation and integration/fan-in plan.
+
 ### Expected files or areas touched
 
 ### Checkpoints

@@ -71,7 +71,7 @@ This repo encodes that layering directly.
 
 ### 1. The always-loaded surface stays intentionally thin
 
-[AGENTS.md](../AGENTS.md) does not try to explain the project from scratch.
+[AGENTS.md](../../AGENTS.md) does not try to explain the project from scratch.
 
 It focuses on:
 
@@ -152,7 +152,7 @@ You know this framework is working when contributors can move from zero context 
 
 ### What artifacts prove it is embedded
 
-- [AGENTS.md](../AGENTS.md)
+- [AGENTS.md](../../AGENTS.md)
 - [README.md](../../README.md)
 - [docs/process/cold-start.md](../process/cold-start.md)
 - [docs/index.md](../index.md)

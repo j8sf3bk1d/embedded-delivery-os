@@ -36,16 +36,16 @@ Less repeated chaos, faster recovery, cleaner handoffs
 ```text
                     Embedded workflow operating system
                                    |
-        ---------------------------------------------------------
-        |                       |                     |          |
-        v                       v                     v          v
-   Routing surfaces      Planning/state         Review/gates   Closeout
-                                              and checks      preservation
+        -------------------------------------------------------------------
+        |                  |                   |                |          |
+        v                  v                   v                v          v
+   Routing surfaces   Planning/state      Coordination      Review/gates   Closeout
+                                        control plane        and checks  preservation
 
-   AGENTS.md            docs/index.md          review docs     lifecycle rules
-   change map           source authority       gate triggers   docs refresh
-   cold-start path      arcs and phases        coherence       issues register
-                                                reviews         decision routing
+   AGENTS.md         docs/index.md       board/leases       review docs    lifecycle rules
+   change map        source authority    handoffs           gate triggers  docs refresh
+   cold-start path   arcs and phases     replanning         coherence      issues register
+                                                           reviews        decision routing
 ```
 
 ## Read This Diagram Left To Right
@@ -62,4 +62,5 @@ That is the operating-system move the rest of the tutorial keeps instantiating.
 
 - [09-why-projects-need-an-embedded-workflow-operating-system.md](09-why-projects-need-an-embedded-workflow-operating-system.md)
 - [05-best-of-reading-paths.md](05-best-of-reading-paths.md)
+- [20-why-parallel-work-needs-a-control-plane.md](20-why-parallel-work-needs-a-control-plane.md)
 - [02-embedded-workflows-overview.md](02-embedded-workflows-overview.md)

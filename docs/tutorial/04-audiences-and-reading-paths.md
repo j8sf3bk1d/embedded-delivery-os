@@ -16,6 +16,7 @@ What they usually recognize:
 
 - recurring project chaos
 - hidden dependencies between planning, design, implementation, and release
+- hidden coordination cost when several workers operate at once
 - repeated re-explanation cost
 
 What they often need:
@@ -31,6 +32,7 @@ What they usually recognize:
 - local implementation pain
 - rework from unclear specs or stale docs
 - review and validation gaps
+- collisions and rework from unclear parallel ownership
 
 What they often need:
 

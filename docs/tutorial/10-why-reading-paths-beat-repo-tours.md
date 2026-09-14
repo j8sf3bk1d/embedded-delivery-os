@@ -61,7 +61,7 @@ In this repo, the strategy becomes several embedded mechanics.
 
 ### 1. Always-on routing
 
-[AGENTS.md](../AGENTS.md) is the always-on operating contract.
+[AGENTS.md](../../AGENTS.md) is the always-on operating contract.
 
 It does not try to explain the whole repo. It routes by task:
 
@@ -141,7 +141,7 @@ You can tell this framework is real when it changes behavior in obvious ways.
 
 ### What artifacts prove it is embedded
 
-- [AGENTS.md](../AGENTS.md)
+- [AGENTS.md](../../AGENTS.md)
 - [docs/process/cold-start.md](../process/cold-start.md)
 - [docs/index.md](../index.md)
 - [docs/process/change-map.md](../process/change-map.md)

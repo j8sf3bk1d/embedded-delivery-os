@@ -110,7 +110,7 @@ That is where routing surfaces come in.
 
 ### Always-on routing
 
-[AGENTS.md](../AGENTS.md) says PRD intake and source reconciliation should read source authority first.
+[AGENTS.md](../../AGENTS.md) says PRD intake and source reconciliation should read source authority first.
 
 That prevents the workflow from being "technically documented but operationally optional."
 

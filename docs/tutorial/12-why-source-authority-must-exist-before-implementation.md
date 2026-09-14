@@ -108,7 +108,7 @@ That is how active implementation gets protected from repeated archaeology.
 
 ### 4. The task routing enforces the pattern
 
-[AGENTS.md](../AGENTS.md) routes PRD intake or source reconciliation through source authority first.
+[AGENTS.md](../../AGENTS.md) routes PRD intake or source reconciliation through source authority first.
 
 That is important because the authority model only matters if contributors and agents are told to use it before they start making decisions.
 
@@ -142,7 +142,7 @@ You know this framework is real when implementation stops starting from whicheve
 - [docs/reference/prd-v0/README.md](../reference/prd-v0/README.md)
 - [docs/process/templates/source-authority-template.md](../process/templates/source-authority-template.md)
 - [docs/process/templates/distillation-template.md](../process/templates/distillation-template.md)
-- [AGENTS.md](../AGENTS.md)
+- [AGENTS.md](../../AGENTS.md)
 
 If those artifacts are maintained, the repo can absorb dense source material without letting it become chaos.
 
@@ -159,4 +159,3 @@ This keeps you from implementing the wrong thing because the repo never told you
 ### Non-Developers
 
 This is how a project stops being governed by whichever note or chat someone remembers most vividly.
-

@@ -45,6 +45,7 @@ Plan how the final tutorial set gets compiled from the framework inventory, stor
 - Why Progressive Disclosure Beats Flat Operational Surfaces
 - Why External Resources Need A Human-Executable Checklist
 - Why Decision Records Should Be Triggered, Not Overused
+- Why Parallel Work Needs A Control Plane
 
 Status:
 

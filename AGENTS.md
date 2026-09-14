@@ -31,6 +31,9 @@ Use this file as the always-on operating contract. Keep it lightweight. Do not u
 - Docs, process, or planning changes:
   Read `docs/index.md`, the active arc or phase docs, and the relevant templates under `docs/process/templates/`.
 
+- Parallel coordination work:
+  Read `docs/process/parallel-work-coordination.md` and the relevant coordination templates before changing the task graph or starting a parallel lane.
+
 - PRD intake or source reconciliation:
   Read `docs/system/source-authority.md` first. Prefer derived distillations over raw files in `docs/reference/prd-v0/`. If no PRD exists yet, create a discovery brief first.
 
@@ -55,12 +58,31 @@ Use this file as the always-on operating contract. Keep it lightweight. Do not u
 
 ## Response Template
 
+when ending a turn and responding to the user, try to use this template:
 - What changed: high-level summary
 - What works: completed behavior or validated result
 - Assumptions: only if relevant
 - Tests: run, not run, or deferred, only if relevant
 - Decisions needed: include a recommendation when relevant
 - Next steps: suggested next action or explicit stop point
+
+if the next step involves a handoff or a parellel run, add this:
+- Next step owner: `reasoning`, `execution`, or `human user`
+- Next task: link the governing doc or name the exact task
+- Pass-forward summary: short context that can be pasted into the next lane
+
+When the parallel-coordination profile is enabled for a project:
+
+- Do not dispatch a subagent in Fast mode unless the human user explicitly
+  authorizes that exception; record it in the task brief or handoff.
+- Include board result, claimable sequence, launchable work, constrained
+  capacity, blockers, and a concrete orchestrator action in board-aware handoffs.
+
+## Git hygiene
+
+- Feel free to ignore, track, and commit what is reasonable when it makes sense.
+- It's okay to have in-flight docs untracked or uncommitted.
+- A tidy worktree keeps the context noise down for other threads.
 
 ## Cold Start
 

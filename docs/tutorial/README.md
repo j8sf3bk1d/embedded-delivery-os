@@ -59,6 +59,7 @@ After that, continue through the published lessons in numeric order:
 16. [17-why-external-resources-need-a-human-executable-checklist.md](17-why-external-resources-need-a-human-executable-checklist.md)
 17. [18-why-progressive-disclosure-beats-flat-operational-surfaces.md](18-why-progressive-disclosure-beats-flat-operational-surfaces.md)
 18. [19-why-decision-records-should-be-triggered-not-overused.md](19-why-decision-records-should-be-triggered-not-overused.md)
+19. [20-why-parallel-work-needs-a-control-plane.md](20-why-parallel-work-needs-a-control-plane.md)
 
 If you want the compressed version instead, use [05-best-of-reading-paths.md](05-best-of-reading-paths.md).
 
@@ -76,6 +77,8 @@ If you want the compressed version instead, use [05-best-of-reading-paths.md](05
   [14-why-reviews-need-routing-not-just-findings.md](14-why-reviews-need-routing-not-just-findings.md)
 - release, setup, and deployment confusion:
   [15-why-works-locally-is-not-a-release-process.md](15-why-works-locally-is-not-a-release-process.md)
+- parallel-worker or multi-agent coordination:
+  [20-why-parallel-work-needs-a-control-plane.md](20-why-parallel-work-needs-a-control-plane.md)
 
 ## Published Lessons
 
@@ -90,6 +93,7 @@ If you want the compressed version instead, use [05-best-of-reading-paths.md](05
 9. [17-why-external-resources-need-a-human-executable-checklist.md](17-why-external-resources-need-a-human-executable-checklist.md)
 10. [18-why-progressive-disclosure-beats-flat-operational-surfaces.md](18-why-progressive-disclosure-beats-flat-operational-surfaces.md)
 11. [19-why-decision-records-should-be-triggered-not-overused.md](19-why-decision-records-should-be-triggered-not-overused.md)
+12. [20-why-parallel-work-needs-a-control-plane.md](20-why-parallel-work-needs-a-control-plane.md)
 
 ## Meta And Build Path
 

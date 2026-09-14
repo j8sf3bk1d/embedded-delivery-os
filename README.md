@@ -29,6 +29,7 @@ The opportunity is to embed the coordination layer into the repo itself:
 - arcs and phases instead of fuzzy project state
 - review routing instead of orphaned findings
 - release and infrastructure checklists instead of hidden operational knowledge
+- a dependency board and resource-aware handoffs when work is genuinely concurrent
 
 ## What You Get
 
@@ -40,6 +41,7 @@ The opportunity is to embed the coordination layer into the repo itself:
 - canonical reference docs in `docs/reference/`
 - a first-brief discovery path for projects that start from live discussion instead of a PRD
 - a tutorial track that explains the operating model, not just the artifacts
+- an optional parallel-coordination profile for multi-worker delivery
 
 ## Start Here
 

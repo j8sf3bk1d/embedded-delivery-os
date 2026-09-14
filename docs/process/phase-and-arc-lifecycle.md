@@ -7,6 +7,11 @@ Define the default operating lifecycle for arcs and phases so activation, execut
 
 Only one phase should normally be `active` at a time for a given arc unless the arc explicitly calls out parallel lanes.
 
+The optional [Parallel Work Coordination profile](parallel-work-coordination.md)
+defines how those lanes share a dependency board, resources, workspaces,
+handoffs, recovery, and replanning. Enabling parallel lanes does not remove the
+normal arc and phase review requirements.
+
 ## Recommended status vocabulary
 
 Use these status values consistently:
@@ -88,6 +93,18 @@ Record the blocker explicitly in the phase doc and in `docs/scratchpad/issues.md
 - the objective was superseded, absorbed elsewhere, or proven unnecessary
 
 Record why it was cancelled so the repo does not reopen it by accident later.
+
+## Parallel coordination overlay
+
+When an arc enables parallel work, name its active board and establish
+workspace isolation before fan-out. A task is not complete until its artifact,
+focused validation, and handoff are available. Work that touches shared runtime,
+configuration, generated output, or combined validation needs a separate
+integration task.
+
+Run a replanning checkpoint after ambiguity resolution, at fan-out/fan-in,
+after repeated blocking or resource/workspace contention, and whenever board
+state no longer matches repository reality.
 
 ## Review routing rules
 
@@ -171,3 +188,5 @@ Before closing a phase or arc, check:
 - leaving review findings un-routed
 - updating code without refreshing the docs named in the phase
 - opening multiple active phases in one arc without explicit lane ownership
+- treating a board row as proof that its artifact, validation, and integration
+  handoff exist

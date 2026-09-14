@@ -26,6 +26,9 @@ Use this as the raw inventory, not the final lesson sequence.
 - design and implementation pairing
 - lifecycle activation and closeout rules
 - scratchpad and issue tracking
+- parallel task board, resource leases, and workspace isolation
+- ambiguity gates, replanning checkpoints, and integration handoffs
+- project-local dispatch allocation policy
 
 ### Architecture and boundary frameworks
 
@@ -78,4 +81,3 @@ Otherwise, it should stay as:
 - a sub-lesson
 - a supporting example
 - or a tactic inside a larger lesson
-

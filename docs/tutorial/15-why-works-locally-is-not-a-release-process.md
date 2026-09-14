@@ -100,7 +100,7 @@ That matters because it stops launch claims from piggybacking casually on ordina
 
 ### 4. Task routing distinguishes release work
 
-[AGENTS.md](../AGENTS.md) and [docs/process/change-map.md](../process/change-map.md) now treat:
+[AGENTS.md](../../AGENTS.md) and [docs/process/change-map.md](../process/change-map.md) now treat:
 
 - release-readiness docs
 - deployment notes
@@ -134,7 +134,7 @@ You know this framework is working when the repo can explain the difference betw
 - [docs/qa/release-readiness-checklist.md](../qa/release-readiness-checklist.md)
 - [docs/system/external-resources-and-infrastructure.md](../system/external-resources-and-infrastructure.md)
 - [docs/qa/test-strategy.md](../qa/test-strategy.md)
-- [AGENTS.md](../AGENTS.md)
+- [AGENTS.md](../../AGENTS.md)
 - [docs/process/change-map.md](../process/change-map.md)
 
 If those artifacts stay current, the repo can make more credible release claims instead of just escalating local confidence into public confidence.
@@ -152,4 +152,3 @@ This prevents release work from showing up as a vague late-stage scramble after 
 ### Non-Developers
 
 This explains why a project can seem finished in a demo and still not be ready for real use.
-

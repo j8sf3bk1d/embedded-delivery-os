@@ -41,6 +41,19 @@ Repo artifacts:
 - `docs/process/phase-and-arc-lifecycle.md`
 - arc, phase, design, and implementation templates
 
+### Parallel Coordination Control Plane
+
+Problem:
+multiple humans or agents can work at once, but a roadmap, task list, or
+worktree alone does not say what is safe to start, who owns it, or what counts
+as integrated completion.
+
+Repo artifacts:
+
+- `docs/process/parallel-work-coordination.md`
+- `coordination/README.md`
+- task brief, handoff, workspace, ambiguity, conditional-task, and replanning templates
+
 ### Review And Finding Routing
 
 Problem:

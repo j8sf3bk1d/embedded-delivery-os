@@ -26,6 +26,7 @@ The recurring mess is not one bug. It is a family of failures:
 - UX drifts because workflows were never modeled explicitly
 - reviews find issues that never become durable follow-up
 - release and infrastructure assumptions stay implicit until late
+- concurrent work creates hidden dependency, resource, and handoff failures
 
 Each one looks separate when it happens.
 
@@ -84,7 +85,7 @@ These answer "what do I read and do next?"
 
 Core examples:
 
-- [AGENTS.md](../AGENTS.md)
+- [AGENTS.md](../../AGENTS.md)
 - [docs/index.md](../index.md)
 - [docs/process/change-map.md](../process/change-map.md)
 - [docs/process/cold-start.md](../process/cold-start.md)
@@ -117,7 +118,21 @@ Core examples:
 
 They exist because some failures only become visible when work is reviewed from the right lens.
 
-### 4. Closeout and preservation mechanisms
+### 4. Coordination control plane
+
+These answer "what is safe to start, what owns the lane, and what proof closes
+concurrent work?"
+
+Core examples:
+
+- [docs/process/parallel-work-coordination.md](../process/parallel-work-coordination.md)
+- [coordination/README.md](../../coordination/README.md)
+- task briefs, handoffs, workspace decisions, ambiguity gates, and replanning checkpoints
+
+They exist because a roadmap and a collection of worker responses are not a
+dependency graph or a validated integration record.
+
+### 5. Closeout and preservation mechanisms
 
 These answer "how does the fix survive context loss and become durable operating memory?"
 
@@ -150,7 +165,7 @@ You know this macro framework is working when the repo stops depending on heroic
 
 ### What artifacts prove it is embedded
 
-- [AGENTS.md](../AGENTS.md)
+- [AGENTS.md](../../AGENTS.md)
 - [docs/index.md](../index.md)
 - [docs/process/change-map.md](../process/change-map.md)
 - [docs/system/source-authority.md](../system/source-authority.md)
