@@ -77,7 +77,7 @@ If you want the compressed version instead, use [05-best-of-reading-paths.md](05
   [14-why-reviews-need-routing-not-just-findings.md](14-why-reviews-need-routing-not-just-findings.md)
 - release, setup, and deployment confusion:
   [15-why-works-locally-is-not-a-release-process.md](15-why-works-locally-is-not-a-release-process.md)
-- parallel-worker or multi-agent coordination:
+- project coordination and multi-agent work:
   [20-why-parallel-work-needs-a-control-plane.md](20-why-parallel-work-needs-a-control-plane.md)
 
 ## Published Lessons

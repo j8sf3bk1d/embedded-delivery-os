@@ -26,7 +26,8 @@ The recurring mess is not one bug. It is a family of failures:
 - UX drifts because workflows were never modeled explicitly
 - reviews find issues that never become durable follow-up
 - release and infrastructure assumptions stay implicit until late
-- concurrent work creates hidden dependency, resource, and handoff failures
+- work spanning sessions loses ownership, dependencies, and handoff state;
+  concurrent work adds shared-resource and integration failures
 
 Each one looks separate when it happens.
 
@@ -121,7 +122,7 @@ They exist because some failures only become visible when work is reviewed from 
 ### 4. Coordination control plane
 
 These answer "what is safe to start, what owns the lane, and what proof closes
-concurrent work?"
+work across sessions and, when relevant, concurrent work?"
 
 Core examples:
 

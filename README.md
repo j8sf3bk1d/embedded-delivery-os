@@ -1,6 +1,6 @@
 # Embedded Delivery OS
 
-Most software process fails because it lives outside the work. This repository is a repo-native workflow operating system for software delivery: a way to embed orientation, source authority, planning, review, validation, and release hygiene directly into the project itself.
+Most software process fails because it lives outside the work. This repository is a repo-native workflow operating system for delivery and knowledge work: a way to embed orientation, source authority, planning, review, validation, and release hygiene directly into the project itself.
 
 The goal is not to add more process theater. The goal is to turn recurring project mess into durable workflow that survives handoffs, context loss, changing contributors, and agent-driven execution.
 
@@ -11,6 +11,10 @@ This repo is meant to be:
 - a cloneable starter scaffold for new projects
 - a concrete example of embedded workflow design
 - a public teaching artifact for modern software delivery with humans and agents
+
+The same coordination approach can support research, content, and other
+knowledge work: the artifacts and checks change with the outcome. A project
+starts with a small record of its work and adds coordination detail as needed.
 
 ## The New Opportunity
 
@@ -41,7 +45,7 @@ The opportunity is to embed the coordination layer into the repo itself:
 - canonical reference docs in `docs/reference/`
 - a first-brief discovery path for projects that start from live discussion instead of a PRD
 - a tutorial track that explains the operating model, not just the artifacts
-- an optional parallel-coordination profile for multi-worker delivery
+- a project coordination board and history, with resource and workspace controls when needed
 
 ## Start Here
 

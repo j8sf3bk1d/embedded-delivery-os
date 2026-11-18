@@ -34,7 +34,7 @@ Recommended picks:
   [14-why-reviews-need-routing-not-just-findings.md](14-why-reviews-need-routing-not-just-findings.md)
 - release or ops confusion:
   [15-why-works-locally-is-not-a-release-process.md](15-why-works-locally-is-not-a-release-process.md)
-- multi-agent or parallel-work confusion:
+- coordination across sessions or parallel work:
   [20-why-parallel-work-needs-a-control-plane.md](20-why-parallel-work-needs-a-control-plane.md)
 
 ## Best Path For Managers
@@ -103,7 +103,7 @@ Why this path:
   [14-why-reviews-need-routing-not-just-findings.md](14-why-reviews-need-routing-not-just-findings.md)
 - "Things work locally but are not actually ready":
   [15-why-works-locally-is-not-a-release-process.md](15-why-works-locally-is-not-a-release-process.md)
-- "We have multiple workers but cannot tell what can safely start or finish":
+- "We cannot tell what is ready, who owns it, or what counts as finished":
   [20-why-parallel-work-needs-a-control-plane.md](20-why-parallel-work-needs-a-control-plane.md)
 
 ## If You Want The Whole System

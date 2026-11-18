@@ -41,12 +41,12 @@ Repo artifacts:
 - `docs/process/phase-and-arc-lifecycle.md`
 - arc, phase, design, and implementation templates
 
-### Parallel Coordination Control Plane
+### Project Coordination
 
 Problem:
-multiple humans or agents can work at once, but a roadmap, task list, or
-worktree alone does not say what is safe to start, who owns it, or what counts
-as integrated completion.
+work can span sessions even with one owner. A roadmap, task list, or worktree
+alone does not say what is safe to start, who owns it, or what counts as
+completion. Concurrency adds resource and integration boundaries.
 
 Repo artifacts:
 

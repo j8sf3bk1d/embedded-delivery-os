@@ -1,12 +1,12 @@
 # Embedded Delivery OS
 
-Short description: repo-native workflow operating system and reusable project scaffold for software delivery.
+Short description: repo-native workflow operating system and reusable project scaffold for delivery and knowledge work.
 
 Current arc: [00 Project Foundation](process/arcs/00-project-foundation/arc.md)
 
 Active phase: [Phase 01 - Source Intake, Discovery, and Distillation](process/arcs/00-project-foundation/phases/01-source-intake-and-distillation/phase.md)
 
-Current status: Git is initialized. The starter documentation, process, QA, review, scratchpad, and user-doc scaffolding are in place. Canonical process references live in `docs/reference/`. The scaffold now supports both imported PRDs and conversation-driven first-brief creation, screenshot-assisted UX review when visual tooling exists, and an optional parallel-coordination profile for genuinely concurrent work. No product-specific PRD or implementation stack has been committed yet, so the system map, source-authority doc, environment scaffold, and validation guidance remain intentionally generic.
+Current status: Git is initialized. The starter documentation, process, QA, review, scratchpad, and user-doc scaffolding are in place. Canonical process references live in `docs/reference/`. The scaffold now supports both imported PRDs and conversation-driven first-brief creation, screenshot-assisted UX review when visual tooling exists, and a project coordination board and history that scale from sequential to concurrent work. No product-specific PRD or implementation stack has been committed yet, so the system map, source-authority doc, environment scaffold, and validation guidance remain intentionally generic.
 
 Key docs:
 
@@ -22,7 +22,7 @@ Key docs:
 - Scratchpad: [Ideas](scratchpad/ideas.md), [Issues](scratchpad/issues.md)
 - User docs: [User Manual](../user-docs/user-manual.md)
 - Intake area: [PRD v0 README](reference/prd-v0/README.md)
-- Canonical references: [Product Discovery Process](reference/product-discovery-process.md), [UX Process](reference/ux-process.md), [Feature Design Process](reference/feature-design-process.md), [Engineering Principles](reference/engineering-principles.md), [Security Posture and Process](reference/security-posture-and-process.md)
+- Canonical references: [Product Discovery Process](reference/product-discovery-process.md), [UX Process](reference/ux-process.md), [Feature Design Process](reference/feature-design-process.md), [Agent Attention and Interruption](reference/agent-attention-and-interruption.md), [Engineering Principles](reference/engineering-principles.md), [Security Posture and Process](reference/security-posture-and-process.md)
 - Visual archive: [Screenshot Archive](archive/screenshots/index.md)
 
 Setup and environment notes:
@@ -35,7 +35,7 @@ Setup and environment notes:
 - Use `docs/system/external-resources-and-infrastructure.md` as soon as the project depends on real external services, accounts, or provisioning.
 - If UI work exists and screenshot tooling is available, keep meaningful milestone captures under `docs/archive/screenshots/`.
 - If UI work is likely to iterate over time, consider creating a project-specific visual style guardrails note from `docs/process/templates/visual-style-guardrails-template.md` so density targets and anti-patterns are explicit early.
-- If two or more contributors or agents will work concurrently, read [Parallel Work Coordination](process/parallel-work-coordination.md) and decide whether to enable its board, handoff, replanning, recovery, and workspace rules.
+- Start with the [coordination board](../coordination/README.md) and [coordination guidance](process/parallel-work-coordination.md); add resource and workspace controls when the work needs them.
 
 Immediate next steps:
 

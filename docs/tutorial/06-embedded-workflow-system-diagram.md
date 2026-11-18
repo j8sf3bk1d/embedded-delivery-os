@@ -42,9 +42,9 @@ Less repeated chaos, faster recovery, cleaner handoffs
    Routing surfaces   Planning/state      Coordination      Review/gates   Closeout
                                         control plane        and checks  preservation
 
-   AGENTS.md         docs/index.md       board/leases       review docs    lifecycle rules
+   AGENTS.md         docs/index.md       board/history      review docs    lifecycle rules
    change map        source authority    handoffs           gate triggers  docs refresh
-   cold-start path   arcs and phases     replanning         coherence      issues register
+   cold-start path   arcs and phases     leases as needed   coherence      issues register
                                                            reviews        decision routing
 ```
 

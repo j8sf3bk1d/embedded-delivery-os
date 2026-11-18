@@ -136,6 +136,13 @@ After:
 - the working distillation defines the implementation slice
 - raw documents remain available without silently steering the work
 
+The project also starts a coordination record. It can capture one task to
+classify and distill the sources, its owner, the expected authority map, and a
+focused check against the source set. If another contributor independently
+checks a conflicting source, record that ownership and the decision it must
+unlock. A single contributor can carry the whole task sequentially; a board
+does not imply a separate agent for every step.
+
 This is the key transition:
 
 - the project stops depending on memory

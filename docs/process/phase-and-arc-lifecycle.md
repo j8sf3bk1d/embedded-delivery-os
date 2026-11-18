@@ -7,7 +7,7 @@ Define the default operating lifecycle for arcs and phases so activation, execut
 
 Only one phase should normally be `active` at a time for a given arc unless the arc explicitly calls out parallel lanes.
 
-The optional [Parallel Work Coordination profile](parallel-work-coordination.md)
+The [project coordination guidance](parallel-work-coordination.md)
 defines how those lanes share a dependency board, resources, workspaces,
 handoffs, recovery, and replanning. Enabling parallel lanes does not remove the
 normal arc and phase review requirements.

@@ -1,18 +1,27 @@
 # Parallel Work Coordination
 
-Status: standard optional profile. Use it only when work is genuinely
-concurrent; the default one-thread workflow remains right for small or
-sequential changes.
+Status: standard project coordination guidance. Start with the supplied board
+and history for each project, and scale the detail to the work. One person or
+agent can carry a small sequential outcome through completion; concurrency is
+not required to use coordination.
 
-This profile makes multi-worker delivery inspectable without treating a task
-list as product authority. The human and active arc/phase own scope and
-decisions; the board owns dispatch state.
+Coordination makes work inspectable without treating a task list as product
+authority. The human and governing project documents own scope and decisions;
+the board owns task and dispatch state. A board does not authorize delegation,
+new scope, or external actions.
 
-## When to enable it
+## Start small and scale
 
-Enable this profile for two or more concurrent contributors or agents, or when
-work includes constrained tools, repeated handoffs, long-running processes, or
-shared integration boundaries.
+Record the current outcome, state, owner or next owner, relevant dependencies
+and blockers, expected artifact, focused verification, and next action. The
+starter provides empty task and history headers. Add real rows as work begins;
+small edits can stay in an existing owner’s task. Record task transitions in
+history. Use briefs, resource leases, worktrees, separate reviews, and
+integration tasks when the work actually needs them. A single task can include
+design, implementation, verification, and integration when appropriate.
+
+When contributors or agents work concurrently, add explicit resource,
+workspace, ownership, and integration controls for shared boundaries.
 
 Keep five concerns separate:
 
@@ -24,9 +33,11 @@ Keep five concerns separate:
 
 ## Board contract
 
-Create a project-local `coordination/` directory with required `tasks.tsv` and
-`history.tsv`. Add `roles.tsv` or `resources.tsv` only when they answer a real
-routing or capacity question.
+Use the supplied project-local `coordination/tasks.tsv` and `history.tsv`.
+Add `roles.tsv` or `resources.tsv` only when they answer a real routing or
+capacity question. The headers are a starting schema; adapt them deliberately
+when project needs differ, keeping task identity, state, ownership, and
+transition evidence legible.
 
 The portable task header is:
 
@@ -45,13 +56,14 @@ queue. A future task in a recommended chain is not claimable until it is ready.
 
 ## Activation and task transitions
 
-When enabling the profile:
+When starting a project or opening a new work slice:
 
 1. Add only the committed frontier, required review/integration work, and
    useful conditional work.
 2. Record workspace isolation before fan-out.
-3. Add a separate integration task whenever parallel work touches shared
-   runtime, configuration, generated output, or combined validation.
+3. Name one integration owner; use a separate integration task when parallel
+   work touches shared runtime, configuration, generated output, or combined
+   validation and the boundary needs independent coordination.
 4. Serialize board edits through one coordinator or an equivalent lock.
 5. Require a handoff before a task becomes `done`.
 
@@ -59,7 +71,8 @@ The normal path is `ready` → `claimed` → `done`. A claim needs an owner; a
 block needs a named clearing event. Record claims, releases, blocks,
 completions, supersessions, and graph changes in history. A task is done only
 when its stated artifact and focused validation are readable, or its handoff
-names the exception and who owns it.
+names the exception and who owns it. A concise task note can be the handoff
+when it carries the relevant evidence; use a separate document when needed.
 
 Use a [task brief](templates/task-brief-template.md) when a TSV row cannot
 safely carry the acceptance contract—especially for decision frontiers,
@@ -73,15 +86,20 @@ and effort that fit those shapes.
 
 When allocation matters, create `coordination/dispatch-policy.md` from the
 [dispatch policy template](templates/dispatch-policy-template.md). It may
-suggest Luna-high for bounded execution, Terra-medium for reasoning/design/
-review, and Sol for exceptional graph-changing or high-risk integration review.
-These are suggestions, not a required roster.
+suggest GPT-6 Luna for bounded execution, GPT-6.1 Sol for reasoning, design, or
+review, and GPT-6 Astra for exceptional graph-changing or high-risk integration
+review. These are suggestions, not a required roster.
 
 **Fast mode is prohibited for subagents unless the human user explicitly
 authorizes an exception.** Record any exception, actual worker/model, effort,
 and rationale in the task brief or handoff.
 
 ## Decisions, replanning, and dispatch
+
+When the user may not be watching the conversation, follow the portable
+[Agent Attention and Interruption](../reference/agent-attention-and-interruption.md)
+policy: put the full ask in the originating thread and use an enabled external
+channel only as a minimal nudge.
 
 Use an [ambiguity gate](templates/ambiguity-gate-template.md) when an answer
 can expand, collapse, redirect, or defer the graph. Keep hypothetical work in

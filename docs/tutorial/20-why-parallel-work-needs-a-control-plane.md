@@ -1,13 +1,13 @@
 # Why Parallel Work Needs A Control Plane
 
-Parallel agents can make delivery faster. They can also make a project less
+Parallel agents can help independent work proceed. They can also make a project less
 legible, more collision-prone, and harder to recover after interruption.
 
 The problem is not that multiple workers exist. It is that a task list,
 worktree, or completed agent response is often mistaken for coordination.
 
-This lesson explains why parallel work needs a small, repo-native control
-plane—and why that control plane should remain optional.
+This lesson explains how a small, repo-native coordination record supports
+work across sessions and scales when contributors work concurrently.
 
 ## How It Was Learned Or Earned
 
@@ -30,14 +30,16 @@ questions that a delivery system must answer:
 - what proof turns work into a completed handoff?
 - what changes when new evidence redirects the plan?
 
-The insight is that concurrent work needs durable dispatch state. The harness
-can run workers; the repository must preserve the authority, dependencies,
-constraints, and recovery record that make those workers safe to coordinate.
+The insight is that work needs durable state across sessions. Concurrent work
+adds ownership, resource, and integration questions. A worker harness can run
+workers; the repository preserves the decisions and evidence that let work
+continue and be coordinated.
 
 ## The Strategy
 
-Use a small control plane only when concurrency creates a real coordination
-problem.
+Start each project with a small coordination record, then add detail as the
+work requires. One owner may handle a sequential outcome; parallel work needs
+clear ownership, resource constraints, and integration.
 
 The control plane keeps five facts separate:
 
@@ -62,6 +64,35 @@ goal or roadmap          ≠ dependency graph
 The goal is not to build a universal scheduler. It is to make the next safe
 action, the first blocker, and the recovery path visible to both people and
 agents.
+
+## Two Examples
+
+### One owner, one outcome
+
+A content project needs an existing guide corrected after a product change.
+The coordinator records one task: update the guide against the approved
+product source, identify an owner, and verify the changed claims and links.
+The owner claims it, checks the source, edits the guide, and records the
+artifact and checks before marking it done. A small typo found along the way
+stays in that task. The transition history lets the next session understand
+what happened; no separate design, writing, and review workers are required.
+
+### Concurrent work with one shared resource
+
+A team is preparing a new onboarding flow. Two ready tasks can proceed in
+parallel: one owner drafts the flow, another checks the API contract. Each
+has a distinct artifact and acceptance check. Browser access is shared, so
+the coordinator records who may use it and verifies the selected tool works.
+If it is occupied, browser proof waits for release; source preparation that
+doesn't need the browser continues. A third task stays blocked until the
+draft and API contract are ready, then its owner integrates them and records
+the evidence. The result is not described as deployed merely because the
+draft or source is complete.
+
+These examples use the same record at different scales. The board represents
+readiness and ownership; it doesn't grant permission to spawn agents, change
+scope, or publish. A real external action follows the user's instructions and
+the project's own authority boundaries.
 
 ## The Tactics
 
@@ -114,8 +145,9 @@ unless the human user explicitly authorizes an exception.
 
 ## The Proof Or Belief Builders
 
-You know this framework is working when parallelism produces less waiting and
-rework without requiring the coordinator to remember the graph mentally.
+Look for a clear next action, evidence of completion, and a current owner
+without requiring anyone to reconstruct the work from chat. Evaluate actual
+waiting and rework in each project rather than assuming an improvement.
 
 ### What it prevents
 

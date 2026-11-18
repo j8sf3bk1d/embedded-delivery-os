@@ -16,13 +16,13 @@ Available templates:
 - [Source Authority Template](source-authority-template.md)
 - [Working Distillation Template](distillation-template.md)
 - [Discovery Brief Template](discovery-brief-template.md)
-- [Task Brief Template](task-brief-template.md) — parallel-coordination profile
-- [Dispatch Allocation Policy Template](dispatch-policy-template.md) — parallel-coordination profile
-- [Ambiguity Gate Template](ambiguity-gate-template.md) — parallel-coordination profile
-- [Conditional Task Template](conditional-task-template.md) — parallel-coordination profile
-- [Replanning Checkpoint Template](replanning-checkpoint-template.md) — parallel-coordination profile
-- [Parallel Handoff Template](parallel-handoff-template.md) — parallel-coordination profile
-- [Workspace Isolation Template](workspace-isolation-template.md) — parallel-coordination profile
+- [Task Brief Template](task-brief-template.md) — project coordination guidance
+- [Dispatch Allocation Policy Template](dispatch-policy-template.md) — project coordination guidance
+- [Ambiguity Gate Template](ambiguity-gate-template.md) — project coordination guidance
+- [Conditional Task Template](conditional-task-template.md) — project coordination guidance
+- [Replanning Checkpoint Template](replanning-checkpoint-template.md) — project coordination guidance
+- [Parallel Handoff Template](parallel-handoff-template.md) — project coordination guidance
+- [Workspace Isolation Template](workspace-isolation-template.md) — project coordination guidance
 
 Related reusable process artifacts outside this folder:
 

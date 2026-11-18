@@ -22,10 +22,12 @@ portable task-board header.
 |---|---|---|---|
 | Straightforward bounded execution | Luna or equivalent | high | |
 | Moderate implementation or rework | Luna or equivalent | high | |
-| Design, ambiguity, architecture, coordination, or review | Terra or equivalent | medium | |
-| Exceptional graph-changing or high-risk integration review | Sol or equivalent, if available | high | |
+| Design, ambiguity, architecture, coordination, or review | GPT-6.1 Sol or equivalent | medium | |
+| Exceptional graph-changing or high-risk integration review | Astra or equivalent, if available | high | |
 
-Projects may omit Sol or use capability-oriented labels.
+Projects may use capability-oriented labels or other available models.
+Choose the model for the work and verify its availability; a review label alone
+does not require the exceptional allocation.
 
 ## Override rules
 

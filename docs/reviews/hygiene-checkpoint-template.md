@@ -76,7 +76,8 @@ Capture:
 
 ## Parallel Coordination Check
 
-Use when the project has enabled the parallel-coordination profile.
+Use the applicable checks for the project's coordination board and any active
+concurrent work.
 
 Check for:
 

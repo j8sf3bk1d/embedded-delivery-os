@@ -34,6 +34,10 @@ Use this file as the always-on operating contract. Keep it lightweight. Do not u
 - Parallel coordination work:
   Read `docs/process/parallel-work-coordination.md` and the relevant coordination templates before changing the task graph or starting a parallel lane.
 
+- Agent attention cues:
+  Read `docs/reference/agent-attention-and-interruption.md` and follow the
+  configured integration's own instructions.
+
 - PRD intake or source reconciliation:
   Read `docs/system/source-authority.md` first. Prefer derived distillations over raw files in `docs/reference/prd-v0/`. If no PRD exists yet, create a discovery brief first.
 
@@ -71,7 +75,7 @@ if the next step involves a handoff or a parellel run, add this:
 - Next task: link the governing doc or name the exact task
 - Pass-forward summary: short context that can be pasted into the next lane
 
-When the parallel-coordination profile is enabled for a project:
+For board-aware coordination work:
 
 - Do not dispatch a subagent in Fast mode unless the human user explicitly
   authorizes that exception; record it in the task brief or handoff.
