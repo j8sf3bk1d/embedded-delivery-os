@@ -156,4 +156,3 @@ This gives you a way to resume or hand off work without depending on a full thre
 ### Non-Developers
 
 This is the difference between "we had momentum last night" and "the project still knows where it is this morning."
-

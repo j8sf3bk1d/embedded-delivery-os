@@ -16,6 +16,13 @@ The same coordination approach can support research, content, and other
 knowledge work: the artifacts and checks change with the outcome. A project
 starts with a small record of its work and adds coordination detail as needed.
 
+## Real-world use
+
+The owner reports using this coordination approach across approximately 30
+projects, including applications, marketing and content, and course archiving
+and workflow conversion. The artifacts and checks vary with the work. This is
+practical experience, not a measured census or a claim of universal results.
+
 ## The New Opportunity
 
 The old pattern is familiar:

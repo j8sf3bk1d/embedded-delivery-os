@@ -20,4 +20,3 @@ This build layer exists so the tutorial can be developed intentionally instead o
 Use this folder to plan, map, and refine tutorial content.
 
 Do not treat these files as the public front door. They are the source materials and compilation notes behind the final lessons.
-

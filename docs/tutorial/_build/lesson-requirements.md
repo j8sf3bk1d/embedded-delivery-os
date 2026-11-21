@@ -48,4 +48,3 @@ Do not publish a final lesson if it is only:
 - generic process advice
 - a bag of tactics with no unifying strategy
 - a story with no repo-native artifact behind it
-
